@@ -18,7 +18,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
    
-    <Routes>
+    <Routes basename='/zerodha-project-frontend1'>
       <Route path="/" element={<HomePage />} />
       <Route path="/signup" element={<Signup />} /> 
       <Route path="/about" element={<AboutPage />} />
